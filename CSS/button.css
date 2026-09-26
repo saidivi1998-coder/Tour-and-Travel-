@@ -1,0 +1,12 @@
+h2{
+    width: 100px;
+    /* height: 30px; */
+    background-color: rgb(169, 167, 167);
+    color: rgb(0, 0, 0);
+    margin: 200px;
+    text-align: center;
+    padding: 10px 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 30px;
+
+}
