@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div style="justify-items: center; background-color: rgb(240, 232, 248);  box-shadow: 2px 2px 9px #7e7682; border-radius: 3%; color: rgb(25, 25, 25); padding: 20px; width: 600px; margin: 40px 450px 40px 450px;">
+          <table>
+            <h2>Student Application Form</h2>
+            <form autocomplete="off"  action="success/Success.html" method="get" target="_self" >
+                <tr>
+                    <td>
+                        <label for="Name">Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="Name" name="" placeholder="Enter your Name" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="password">Set Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="password" name="" placeholder="Set Password">
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <label for="Cpw">Confirm Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="Cpw" name="" placeholder="Confirm Password">
+                    </td>
+                </tr>
+                     <tr>
+                    <td>
+                        <label for="age">Age and D.O.B.</label>
+                    </td>
+                    <td>
+                        <input type="number" id="age" name="" placeholder="" min="21" max="28" value="21">
+                        <input type="date" id="age" name="" placeholder="Date of birth">
+
+                    </td>
+                   
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">Gender</label>
+                    </td>
+                    <td>
+                        <select>
+                            <option value="-" id="gender">Select Gender</option>
+                            <option value="Male"> Male</option>
+                            <option value="Female">Female</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="edu">Education</label></td>
+                    <td><select id="edu">
+                        <option value="">Select Course</option>
+                            <optgroup label="B.A.">
+                                <option value="Tamil">Tamil</option>
+                                <option value="English">English</option>
+                            </optgroup>
+                            <optgroup label="B.Sc.">
+                                <option value="Computer Science">Computer Science</option>
+                                <Option value="Maths">Maths</Option>
+                                <option value="Chemistry">Chemistry</option>
+                                <option value="Physics">Physics</option>
+                            </optgroup>
+                    </select>
+                </tr>
+                <td>
+                    <label for="">Mode of Education</label>
+                </td>
+                <td>
+            <input type="radio" id="online" name="mode" value="Online" checked>
+            <label for="online">Online</label>
+            <input type="radio" id="offline" name="mode" value="Offline">
+            <label for="offline">Offline</label>
+                </td>
+            </tr>
+                <tr>
+        <td><label>course:</label></td>
+        <td><input type="checkbox" name="course" value ="cse">
+            <span>CSE</span>
+            <input type="checkbox" name="course" value="ece">
+            <span>ECE</span>
+            <input type="checkbox" name="course" value="mech" checked>
+            <span>Mech</span>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="clr">Color</label></td>
+        <td><input type="color" id="clr"></td>
+    </tr>
+    <tr>
+        <td><label for="tm">Time</label></td>
+        <td><input type="time" id="tm" min="09:00" max="12:00" value="09:00"></td>
+    </tr>
+    <tr>
+        <td><label for="typearea">Feedback</label></td>
+        <td><textarea id="typearea" name="textbox" rows="10" col="10" placeholder="enter your Feedback" minlength="10" maxlength="50"></textarea></td>
+    </tr>
+    <tr>
+        <td><label for="rating">College Rating</label></td>
+        <td><input type="range" id="rating" value="10" name="clg rating" min="1" max="10" oninput="this.nextElementSibling.value=this.value"><output>10</output></td>
+    </tr>
+    <tr>
+        <td><label for="img">Upload Photo</label></td>
+        <td><input type="file" id="img" name="photo" accept=".jpg/.png"></td>
+    </tr>
+    <tr>
+        <td><label for="mail">Email id</label></td>
+        <td><input type="url" id="mail" name="email" placeholder="Enter your Email id"></td>
+        <td><input type="datetime" id="dt" name="datetime" value="2026/09/19 09:30" readonly></td>
+    </tr>
+    <br>
+    <br>
+    <tr>
+        <td><label for=""></label></td>
+        
+    </tr>
+         <tr style="text-align: center;">
+        <td colspan="2 span" >
+            <button type="submit" style="margin-left: 43%;"  >Submit</button>
+            <button type="reset">reset</button>
+            
+        </td>
+    </tr>
+            </form>
+     </table>
+     </div>
+</body>
+</html>

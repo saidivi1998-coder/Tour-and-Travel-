@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emplyoee Details</title>
+    <style>
+        table,th,tr,td{
+        border-collapse: collapse;
+        border: 2px solid black;
+        padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption><h3>Emplyoee Details </h3></caption>
+        <!-- <colgroup>
+            <col  span="1 span" style="background-color: rgb(120, 120, 165);">
+            <col  style="background-color: bisque;">
+        </colgroup> -->
+            <thead>
+                  <tr>
+                    <th rowspan="2"></th>
+                <th colspan="2 span">Name</th>
+            </tr>
+                <tr>
+                    <th>Mr./Mrs/Ms</th>
+                    <th>Emp Name</th>
+                    <th>Salary</th>
+                    <th>Shift</th>
+                    <th>Shift Timing</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="4 span"> Best Emplyees</td>
+                    <td>Mrs.</td>
+                    <td>Divya</td>
+                    <td>15000</td>
+                    <td>First Shift</td>
+                    <td>6:00am to 3:30pm</td>
+                </tr>
+                 <tr>
+                    <td>Mrs.</td>
+                    <td>Ramya</td>
+                    <td>10000</td>
+                    <td>General Shift</td>
+                    <td>9:00am to 5:00pm</td>
+                </tr>
+                 <tr>
+                    <td>Ms.</td>
+                    <td>Priya</td>
+                    <td>18000</td>
+                    <td>Mid Shift</td>
+                    <td>12:30pm to 9:30pm</td>
+                </tr>
+                 <tr style="background-color: rgb(92, 149, 5); color:aliceblue">
+                    <td>Ms.</td>
+                    <td>Tanshika</td>
+                    <td>20000</td>
+                    <td>Night Shift</td>
+                    <td>6:00pm t0 3:30am</td>
+           
+                <tr>
+                    <td colspan="2 span" >Manager Name</td>
+                    <td colspan="4 span" style="text-align: center; font-weight: bold; color: red">Madan</td>
+                </tr>
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td  style="text-align: center; font-size: 10px;" colspan="6 span">&copy; 2026 Emplyoee data</td>
+                </tr>
+             
+            </tfoot>
+    </table>
+</body>
+</html>
