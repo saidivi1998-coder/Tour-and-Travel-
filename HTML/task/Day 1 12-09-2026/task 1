@@ -1,0 +1,124 @@
+
+1.Understand <!DOCTYPE>, <html>, <head>, <body>. Create a simple HTML page.
+	
+	<!DOCTYPE> - this defines Document type is html
+	<html> - Html - hyper text markup language, it is used to create web layouts.
+		 html tag is root tag, this contains head, body and footer tags.
+	<head> - head tag contain title tag and meta tags.
+		 title tag is used to define title name for webpage, it helps SEO(search engine optimization) 
+		   -for understand what our webpage is about.
+	<body> - body tag contains header, main and footer tags and many more. it contains all the visible content of webpage.
+
+Create a simple HTML page:-
+		
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Hello World! </h1>
+    <p> Welcome to my html page </p>
+</body>
+</html>
+
+ 
+	
+2.Explore the root element <html>. Learn how it wraps the entire document.
+
+	HTML - all the tags are called elements, html is root element of html webpage, it wraps all the tags in entire html document
+	html - root element
+	head - information about webpage
+	body - visible content
+	
+	<html>  - root element
+	<head>	
+		<title> </title>
+	</head>
+	<body> 
+	</body>
+	</html>
+
+3.Understand the difference between block-level and inline elements. Practice examples with <div>, <p> (block) and <span>, <a> (inline).
+	
+	Block-level element - block element will take whole width of webpage. (<div> <p>)
+	inline element - this takes only needed space for their content (span, a)
+
+	 <!-- Block element -->
+    <div>
+        <h1>Hello World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisici</p>
+    </div>
+    <hr>
+    <div>
+        <!-- inline element -->
+        <a href="https://www.google.com/search?sca_esv=05f3d1bca6a79ca3&rlz=1C1ONGR_enIN1019IN1019&sxsrf=APpeQnsL-jgBYscJeSnVsLmx9QsxAT6Fhg:1790393372785&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cxpBkeIeqYwoCbfNVc4vKE7plZzta63Pe5DpJ3XFR9XzxI1gxDxLun-GtPKavu3kEzJNGNBebw1A_XeIxzHPdHc5gGlqeYRrsKc2k_QKKK6kt-AjhNNP6r-v8YZTEDEFOHvz2lLpCCJUsUbach_pOXsAYdFRjnayctnF5WfiXo-KcdTL6sQuPlkZ9Qwpf2Q9WDTqyBw&q=strawberry+ad+video+download&sa=X&ved=2ahUKEwjJwfiHp4uXAxXde2wGHWd1BVIQtKgLegQIFxAB&biw=1536&bih=730&dpr=1.25"></a>
+        <p><span style="color: red;"> welcome </span>  to my page</p>
+    </div>
+
+4.Learn and practice basic tags: headings <h1>–<h6>, paragraph <p>, division <div>, and inline <span>. Create a sample page using them.
+	    <div> //division tag
+    <!-- heading tags -->
+     <h1>hello World</h1>
+     <h2>hello World</h2>
+     <h3>hello World</h3>
+     <h4>hello World</h4>
+     <h5>hello World</h5>
+     <h6>hello World</h6>
+
+     <hr>
+     <!-- paragraph tag -->
+     <p>Lorem ipsum dolor sit amet <span style="color: blue;"> consectetur <b>adipisicing</b> elit.</span> Praesentium illo eius, minus quidem 	id necessitatibus culpa quaerat non optio magnam.
+     </p>
+     </div>
+5.Learn what semantic tags are and why they are important for SEO & accessibility. Compare semantic vs non-semantic tags.
+	
+	Sematic tag will describe the meaning and purpose of the content, SEO can better understand the structure and purpose of the webpage.
+	example: header, article, main, section, footer.
+	Non-semantic tag doesn't have any meaning. example: div and span 
+
+
+
+6.Practice creating a webpage with a header and footer. Add title, logo, and footer info
+
+
+7.Understand the difference between sectioning content (<section>) and standalone content (<article>). Create examples.
+
+	Section tag is used to sectioning the content in the web page. 
+
+		<main>
+		<section>
+		<h1> Frontend Courses </h1>
+		<ul>
+			<li> html </li>
+			<li> css </li>
+			<li> javascript </li>
+		</ul>
+		</section>
+
+		<section>
+		<h1> Backend Course </h1>
+			<li> Java </li>
+			<li> phython </li>
+			<li> C++ </li>
+		</ul>
+		</section>
+		</main>
+
+	article tag is complete content by itself. also know as standalone content tag.
+
+
+		<main>
+		<article>
+			<h1> author 1: </h1>
+			<p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, facere! </p>
+		</article>
+
+		<article>
+			<h1> author 2: </h1>
+			<p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, facere! </p>
+		</article>
+		</main>
+
