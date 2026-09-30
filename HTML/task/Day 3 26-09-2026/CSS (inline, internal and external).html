@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #heading{
+            color: blue;
+        }
+        button{
+            background-color: green;
+            color: aliceblue;
+        }
+        #wel{
+            width: 300px;
+            padding: 20px;
+            border: 5px solid black;
+            margin: 10px;
+            background-color: cornsilk;
+            color: rgb(62, 45, 253);
+        }
+        #welcome{
+            color: red;
+        }
+    </style>
+    <link rel="stylesheet" href="day 3 task.css">
+</head>
+<body>
+    <div>
+        <h1>First Heading</h1>
+        <h1 style="color: red;  font-size: 30px;">Second Heading</h1>
+        <h1>Third Heading</h1>
+    </div>
+    <br><hr><br>
+    <!-- You are creating a Student Registration page with a heading, form, and button.
+        All headings on this particular page should be blue, and all buttons should have a green background.
+    Which type of CSS will you use, and where will you write the CSS? -->
+    <div id="form">
+        <h1 id="heading">Student Register Form</h1>
+        <table>
+            <form>
+                <form autocomplete="off" action="" method="">
+        <td><label for="Uname">User Name</label></td>
+        <td><input type="text" id="Uname" name="username" placeholder="Enter your name" required></td>
+        </tr>
+        <tr>
+        <td><label for="pass">Password</label></td>
+        <td><input type="password" id="pass" name="password" placeholder="enter password" minlength="3" maxlength="8"></td>
+        </tr>
+         <tr>
+        <td><button id="button" name="btn" value="Submit">Submit</button></td>
+        <td><button id="button" name="btn" value="reset">Reset</button></td>
+       </tr>
+            </form>
+        </table>
+    </div>
+      <br><hr><br>
+      <!-- External CSS
+You have 5 HTML pages in a website. The navigation menu should have the same background color, font size, and spacing on every page.
+Which type of CSS is suitable, and how will you connect the CSS file to all pages? -->
+    <div id="external">
+        <nav >
+        <a class="link" href="#register form">Register Form</a>
+        <a  class="link" href="#ou list">Order and Unorder list</a>
+        <a  class="link" href="#table">Table</a>
+        <a  class="link" href="#iframe">iframe</a>
+        </nav>
+    </div>
+<br><hr><br>
+<div id="wel">
+    <h1>Welcome to My Page</h1>
+</div>
+<!-- Target Attribute
+    A webpage contains a link called "Open Google". When the user clicks it, the Google page should open in a new browser tab 
+    instead of replacing the current webpage.
+    Which target attribute value will you use, and write the HTML code for it? -->
+    <br><hr><br>
+    <div>
+       <a id="welcome" href="https://www.google.com/?zx=1790776284645" target="_blank"> <h3>Open Google</h3> </a>
+    </div>
+    <br><hr><br>
+</body>
+</html>
+
