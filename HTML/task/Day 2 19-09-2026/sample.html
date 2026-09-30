@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th,td{
+            padding: 10px;
+        }
+        a{
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+            padding-right: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+       a:hover {
+                color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: antiquewhite; padding: 50px; margin: 10px;">
+        <a href="#register form">Register Form</a>
+        <a href="#ou list">Order and Unorder list</a>
+        <a href="#table">Table</a>
+        <a href="#iframe">iframe</a>
+    </div>
+    <table id="register form">
+        <form autocomplete="off" action="" method="">
+        <td><label for="Uname">User Name</label></td>
+        <td><input type="text" id="Uname" name="username" placeholder="Enter your name" required></td>
+        </tr>
+        <tr>
+        <td><label for="pass">Password</label></td>
+        <td><input type="password" id="pass" name="password" placeholder="enter password" minlength="3" maxlength="8"></td>
+        </tr>
+        <tr>
+        <td><label for="mail">email id</label></td>
+        <td><input type="email" id="mail" name="email id" placeholder="enter mail id" required></td>
+        </tr>
+        <tr>
+        <td><label for="age">Age</label></td>
+        <td><input type="number" id="age" name="" value="21" min="21" max="30"></td>
+        </tr>
+ 	   <tr>
+        <td><label for="Gender">Gender</label></td>
+        <td><input type="radio" id="Gender" name="gen" value="Male"><span>Male</span> </td>
+        <td><input type="radio" id="Gender" name="gen" value="Female"><span>Female</span> </td>
+        <td><input type="radio" id="Gender" name="gen" value="Others" checked><span>Others</span> </td>
+       </tr>
+       <tr>
+        <td><label for="Hob">Hobbies</label></td>
+        <td><input type="checkbox" id="hob" name="hobbie" value="dancing"><label for="">Dancing</label> </td>
+        <td><input type="checkbox" id="hob" name="hobbie" value="Drawing"><label for="">Drawing</label> </td>
+        <td><input type="checkbox" id="hob" name="hobbie" value="Signing"><label for="">Singing</label> </td>
+        <td><input type="checkbox" id="hob" name="hobbie" value="reading"><label for="">Book Reading</label> </td>
+       </tr>
+       <tr>
+        <td><button id="button" name="btn" value="Submit">Submit</button></td>
+       </tr>
+        </form>
+    </table>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <!-- Order and Unorder list -->
+    <ul id="ou list">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ul>
+    <ul type="square">
+         <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ul>
+    <ol>
+        <li>apple</li>
+        <li>tomato</li>
+        <li>onion</li>
+    </ol>
+    <ol start="6">
+        <li>apple</li>
+        <li>tomato</li>
+        <li>onion</li>
+    </ol>
+      <ol type="I">
+        <li>apple</li>
+        <li>tomato</li>
+        <li>onion</li>
+    </ol>
+      <ol type="a">
+        <li>apple</li>
+        <li>tomato</li>
+        <li>onion</li>
+    </ol>
+      <ol reversed>
+        <li>apple</li>
+        <li>tomato</li>
+        <li>onion</li>
+    </ol>
+    <!-- nested listing -->
+     <ul>
+        <li>Fruits</li>
+        <ol>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Mango</li>
+        </ol>
+         <li>Vegetable</li>
+        <ol reversed>
+            <li>Tomato</li>
+            <li>Onion</li>
+            <li>Chilli</li>
+        </ol>
+     </ul>
+      <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <table border="1" style="border-collapse: collapse; text-align: center;" id="table">
+        <caption style="margin-bottom: 20px;">Table Test</caption>
+        <tr>
+            <th>S.No.</th>
+            <th>Name</th>
+            <th colspan="2 span">Number</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <th colspan="2 span"></th>
+            <th>First Contact</th>
+            <th>second contact</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td rowspan="2 span">1</td>
+            <td rowspan="2 span">Divya</td>
+            <td>9790987635</td>
+            <td>8939654389</td>
+            <td rowspan="2 span">25</td>
+        </tr>
+           <tr>
+            <td>979098765</td>
+            <td>8939654389</td>
+        </tr>
+          <tr>
+            <td>2</td>
+            <td>sai</td>
+            <td>979098765</td>
+            <td>-</td>
+            <td>21</td>
+        </tr>
+         <tr>
+            <td>3</td>
+            <td>Thanya</td>
+            <td>979098765</td>
+            <td>8939654389</td>
+            <td>21</td>
+        </tr>
+    </table>
+        <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <h3 id="iframe">Play the video</h3>
+    <aside>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RtU8nBnpFVE?si=CNutItjmZhPZXDH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </aside>
+    <a href="https://youtu.be/Wlf1T5nrO50?si=pv2p0cI-Jj6yigAM" >
+    <img src="/HTML/task/Day 2 19-09-2026/bread.jpeg" alt="bread" height="200px" width="200px"></a>
+    <aside>
+        <h2>Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31114.60881833434!2d80.04087181295468!3d12.886740368877154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f609c674bbcb%3A0x1fac36089fe1f633!2sVandalur%2C%20Tamil%20Nadu%20600048!5e0!3m2!1sen!2sin!4v1790766907079!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </aside>
+</body>
+</html>
